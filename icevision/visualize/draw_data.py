@@ -23,7 +23,7 @@ from matplotlib.colors import LinearSegmentedColormap
 from PIL import Image, ImageFont, ImageDraw
 import PIL
 
-DEFAULT_FONT_PATH = None
+DEFAULT_FONT_PATH = get_default_font()
 
 
 def draw_sample(
